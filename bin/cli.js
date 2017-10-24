@@ -31,15 +31,15 @@ const helpText = `
       $ nl <path> -<cmd> --<options>
       $ npx nl <path> -<cmd> --<options>
     Commands
-      -h, --help                    show help menu
-      -l, --link                    link all dirs if present in dependencies
-      -u, --unlink                  unlink all linked dependencies
-      -s, --show                    show all shared and/or linked dependencies
-      -v, --version                 get npm-link-extra package version
+      -h, --help        show help menu
+      -l, --link        link all dirs if present in dependencies
+      -u, --unlink      unlink all linked dependencies
+      -s, --show        show all shared and/or linked dependencies
+      -v, --version     get npm-link-extra package version
     Options
-      -d, --dir                     relative path to mononrepo/dir with many modules
-      --linked-only                 only select currently linked packages
-      --shared-only                 only select shared dependencies between project and target dir
+      -d, --dir         relative path to mononrepo/dir with many modules
+      --linked-only     only select currently linked packages
+      --shared-only     only select shared dependencies between project and target dir
 `;
 
 if (argv.h) {
