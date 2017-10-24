@@ -1,0 +1,32 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb-base",
+  "env": {
+    "mocha": true
+  },
+  "rules": {
+    "prefer-arrow-callback": 0,
+    "func-names": 2,
+    "arrow-body-style": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-dynamic-require": 0,
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "ignore"
+      }
+    ]
+  },
+  "globals": {
+    "it": true,
+    "expect": true,
+    "describe": true,
+    "beforeEach": true,
+    "afterEach": true,
+    "sinon": true
+  }
+}
