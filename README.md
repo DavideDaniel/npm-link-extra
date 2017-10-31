@@ -1,6 +1,6 @@
 ### npm-link-extra
 ---
-###### v 1.1.0
+###### v 1.2.0
 
 Some useful things we wish npm/yarn link had. Inspired by fs-extra...
 
