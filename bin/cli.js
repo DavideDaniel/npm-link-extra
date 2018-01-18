@@ -28,8 +28,8 @@ const helpText = `
     npm-link-extra v ${own.version}
 
     Usage
-      $ nl <path> -<cmd> --<options>
-      $ npx nl <path> -<cmd> --<options>
+      $ nlx <path> -<cmd> --<options>
+      $ npx nlx <path> -<cmd> --<options>
     Commands
       -h, --help        show help menu
       -l, --link        link all dirs if present in dependencies

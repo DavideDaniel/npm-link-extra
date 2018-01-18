@@ -6,7 +6,7 @@
   "license": "MIT",
   "main": "lib/index.js",
   "bin": {
-    "nl": "bin/cli.js"
+    "nlx": "bin/cli.js"
   },
   "scripts": {
     "build": "yarn install --production",
