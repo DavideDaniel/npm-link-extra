@@ -30,7 +30,8 @@
     "nodejs"
   ],
   "dependencies": {
-    "execa": "^0.8.0"
+    "execa": "^0.8.0",
+    "minimist": "^1.2.0"
   },
   "devDependencies": {
     "editme": "1.1",
