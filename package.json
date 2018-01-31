@@ -1,6 +1,6 @@
 {
   "name": "npm-link-extra",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "npm or yarn link common modules between a project and a monorepo/multi-packages dir",
   "author": "David Daniel, <david.e.daniel@gmail.com>",
   "license": "MIT",
