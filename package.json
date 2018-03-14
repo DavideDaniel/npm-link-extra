@@ -9,6 +9,7 @@
     "nlx": "bin/cli.js"
   },
   "scripts": {
+    "i": "yarn install --frozen-lockfile",
     "build": "yarn install --production",
     "bump": "bump --prompt --commit --push",
     "postbump": "editme -w",
