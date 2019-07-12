@@ -13,6 +13,7 @@ const {
 
 const opts = {
   alias: {
+    a: 'all',
     l: 'link',
     u: 'unlink',
     s: 'show',
@@ -45,7 +46,6 @@ const helpText = `
 if (argv.h) {
   log(helpText);
 }
-
 
 if (argv.l) {
   linkIfExists(getPackages(getDirectories(pathToPackages)));
