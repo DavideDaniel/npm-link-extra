@@ -1,6 +1,6 @@
 ### npm-link-extra
 ---
-###### v 3.1.0-beta.0
+###### v 3.1.0-beta.1
 
 Some useful things we wish npm/yarn link had. Inspired by fs-extra...
 
